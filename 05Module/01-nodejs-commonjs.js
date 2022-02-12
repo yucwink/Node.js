@@ -1,2 +1,5 @@
 let obj = require('./m')
-console.log('obj', obj)
+// console.log('obj', obj)
+// console.log('01-nodejs-commonjs被执行了')
+// console.log('require', require)
+console.log(module.paths)
